@@ -1,0 +1,166 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Devil7-AromaStudio
+</name>
+</assembly>
+<members>
+<member name="T:Devil7___Aroma_Studio.PictureBoxEx">
+	<summary>
+ this is a default implementation of the image viewer control
+ that directly accepts the path of the image file
+ and could be used for only one picture by passing the path of the image file
+ </summary>
+</member><member name="T:Devil7___Aroma_Studio.ImageFile">
+	<summary>
+ this a default implementation of the IZImage interface
+ in order to use the image viewer to display a single file image
+ </summary>
+</member><member name="F:Devil7___Aroma_Studio.ImageControl.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageControl.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageControl.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageControl.SetImageSource(Devil7___Aroma_Studio.IZImage)">
+	<summary>
+ this member method is used to set the source of an image and is exposed to any 
+ consuming code, like windows implementing them
+ </summary>
+	<param name="im">image source object that implement IZImage interface</param>
+</member><member name="P:Devil7___Aroma_Studio.ImageViewer.ImagePreviewMode">
+	<summary>
+ gets or sets how the mouse behaves on the image control display area
+ </summary>
+</member><member name="P:Devil7___Aroma_Studio.ImageViewer.CurrentImage">
+	<summary>
+ get the original image that is currently being diplayed
+ the entire image even though it is not fully displayed
+ </summary>
+</member><member name="P:Devil7___Aroma_Studio.ImageViewer.CurrentDisplayedImage">
+	<summary>
+ returns the image that is displayed on the screen
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.ZoomImage(Devil7___Aroma_Studio.ZoomMode)">
+	<summary>
+ this method draws the image with the image mode specified
+ </summary>
+	<param name="md">describes how the original image will appear in the control</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.ZoomImage(System.Double,System.Drawing.Point)">
+	<summary>
+ this method draws the image with the zoom amount as well as the center of the image specified
+ </summary>
+	<param name="z">the value by how much the image will be zoomed</param>
+	<param name="pt">the center coordinate of the image in reference to the original coordinate system</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.ZoomImage(System.Double)">
+	<summary>
+ this is an overload that retains the center of the image and zooms the image with the value specified
+ </summary>
+	<param name="z">the value by how much the image will be zooomed</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.ZoomImage">
+	<summary>
+ this is an over load that retains both the center of the image as well as the zoom value 
+ mostly used to redraw the image, in cases like resizing the control
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.DrawImage(System.Drawing.Rectangle)">
+	<summary>
+ a method used by the class to draw the final region of the the original image 
+ </summary>
+	<param name="rect">the requested region of the image</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.MoveToNextImage">
+	<summary>
+ a method that requests the next available image from the source image
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.MoveToPreviousImage">
+	<summary>
+ a method that requests the previous image from the source image
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.SetImageSource(Devil7___Aroma_Studio.IZImage)">
+	<summary>
+ this method sets the source of the image collections that will be displayed:
+ it could be any object that implements IZImage interface
+ </summary>
+	<param name="img">source object that implement IZImage</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.RotateImage(System.Boolean)">
+	<summary>
+ this method rotated the image 
+ </summary>
+	<param name="ClockWise">specifies if its clockwise or the other</param>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.InitializeHistory">
+	<summary>
+ this is a private method that initializes the collections used to log preview values
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.AddDisplayLog">
+	<summary>
+ a private method that logs the current display values into the collection
+ its bahaves as:
+ it inserts the current value and removes the final one if the capacity is full
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.#ctor">
+	<summary>
+ initialilzes the default values of the control
+ </summary>
+</member><member name="M:Devil7___Aroma_Studio.ImageViewer.#ctor(Devil7___Aroma_Studio.IZImage)">
+	<summary>
+ initilizes the image control object with the source provided
+ </summary>
+	<param name="img">source image</param>
+</member><member name="T:Devil7___Aroma_Studio.ImageViewer">
+	<summary>
+ this class extends from control
+ provides the capability of displaying images with enhaced features of previewing them
+ </summary>
+</member><member name="T:Devil7___Aroma_Studio.ZoomMode">
+	<summary>
+ enumerations that specifies the zoom modes available when ever an image is on display
+ </summary>
+</member><member name="T:Devil7___Aroma_Studio.PreviewMode">
+	<summary>
+ enumerations that specifies how the mouse behaves over the control
+ </summary>
+</member><member name="T:Devil7___Aroma_Studio.IZImage">
+	<summary>
+ a signiture interface that when implemented by any object
+ enables it to utilize the image viewer component
+ </summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.icon_hand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.region_zoom">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.zoom_in">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Devil7___Aroma_Studio.My.Resources.Resources.zoom_out">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Devil7___Aroma_Studio.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

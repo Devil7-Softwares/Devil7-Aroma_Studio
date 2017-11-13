@@ -1,0 +1,24 @@
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.exe
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.pdb
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.xml
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.frm_Main.resources
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.Resources.resources
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.vbproj.GenerateResource.Cache
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.exe.licenses
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.exe
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.xml
+D:\Dineshkumar\AppData\Local\Temporary Projects\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.pdb
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.exe
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.xml
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.pdb
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.exe
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.pdb
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\bin\Debug\Devil7 - Aroma Studio.xml
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.frm_Main.resources
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.Resources.resources
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.vbproj.GenerateResource.Cache
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7 - Aroma Studio.exe.licenses
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\bin\Debug\FastColoredTextBox.dll
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.ctl_CodeEditor.resources
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.ImageViewer.resources
+D:\Projects\Windows\Devil7 - Aroma Studio\Devil7 - Aroma Studio\obj\x86\Debug\Devil7___Aroma_Studio.ImageControl.resources
